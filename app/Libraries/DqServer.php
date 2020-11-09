@@ -1,5 +1,5 @@
 <?php
-include_once 'DqLoader.php';
+namespace App\Libraries;
 
 class DqServer{
     private $fd = null;

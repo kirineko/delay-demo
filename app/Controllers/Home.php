@@ -1,7 +1,7 @@
 <?php namespace App\Controllers;
 
+use App\Libraries\DqClient;
 use Config\Services;
-use DqClient;
 use Predis\Client;
 
 class Home extends BaseController
@@ -53,6 +53,8 @@ class Home extends BaseController
 			$server=array(
 				'127.0.0.1:6789',
 			);
+
+			include_once '../ThirdParty/DqLoader.php';
 			$dqClient = new DqClient();
 			$dqClient->addServer($server);
 			$topic ='order_checker'; //topic在后台注册

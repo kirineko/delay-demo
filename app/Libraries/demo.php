@@ -1,5 +1,7 @@
 <?php
-include_once 'DqLoader.php';
+namespace App\Libraries;
+
+
 date_default_timezone_set("PRC");
 
 //server列表

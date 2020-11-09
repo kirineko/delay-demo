@@ -1,5 +1,7 @@
 <?php
-include_once dirname(__FILE__).'/../DqLoader.php';
+namespace App\Libraries\DqWeb;
+
+use App\Libraries\DqConf;
 
 class DqMysql
 {

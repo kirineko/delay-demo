@@ -1,5 +1,7 @@
 <?php
-include_once 'DqLoader.php';
+
+namespace App\Libraries;
+
 
 if(php_sapi_name()=='cli') {
     ini_set('display_errors', 'on');

@@ -1,5 +1,7 @@
 <?php
-include_once 'DqLoader.php';
+namespace App\Libraries;
+
+
 class DqModule{
     static $topRegistered=array();
     static function getRegisterTopic(){

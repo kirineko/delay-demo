@@ -1,5 +1,8 @@
 <?php
-include_once 'DqLoader.php';
+
+namespace App\Libraries;
+
+
 class DqConf{
     /**
      * 数据库配置

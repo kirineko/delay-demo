@@ -1,5 +1,6 @@
 <?php
-include_once 'DqLoader.php';
+
+namespace App\Libraries;
 
 class DqClient{
 

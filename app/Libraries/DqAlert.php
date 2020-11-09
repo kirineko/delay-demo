@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Libraries;
+
 class DqAlert{
     static function send($msg,$topic){
         $topicList= DqModule::getRegisterTopic();

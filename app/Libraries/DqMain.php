@@ -1,4 +1,8 @@
 <?php
+
+namespace App\Libraries;
+
+
 class DqMain
 {
     static $childPid=array();

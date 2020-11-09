@@ -1,4 +1,8 @@
 <?php
+
+namespace App\Libraries;
+
+
 class DqSwooleClient
 {
 

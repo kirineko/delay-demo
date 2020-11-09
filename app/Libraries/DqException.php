@@ -1,4 +1,7 @@
 <?php
+
+namespace App\Libraries;
+
 class DqException extends Exception{
     function __construct($msg){
         parent::__construct($msg);

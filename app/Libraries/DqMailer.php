@@ -1,4 +1,8 @@
 <?php
+
+namespace App\Libraries;
+
+
 class DqMailer{
     public static function sendMail($email, $subject, $msg, $file='') {
         $mailConfig = DqMysql::select('dq_alert');

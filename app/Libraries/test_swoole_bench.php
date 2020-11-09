@@ -1,10 +1,6 @@
 <?php
 
-include_once 'DqLoader.php';
-include_once 'DqClient.php';
-include_once 'DqComm.php';
-include_once 'DqSwooleClient.php';
-
+namespace App\Libraries;
 
 class DqBench extends Thread{
     private $name;

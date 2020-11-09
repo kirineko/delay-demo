@@ -1,4 +1,8 @@
 <?php
+
+namespace App\Libraries;
+
+
 class DqLog{
     const LOG_TYPE_NORMAL=1;
     const LOG_TYPE_EXCEPTION=2;

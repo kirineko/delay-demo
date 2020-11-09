@@ -1,8 +1,6 @@
 <?php
 
-/**
- *  定义http请求类
- */
+namespace App\Libraries;
 
 class DqCurl {
     const CRLF = "\r\n";

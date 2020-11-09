@@ -1,5 +1,7 @@
 <?php
-include_once 'DqLoader.php';
+namespace App\Libraries;
+
+
 class DqRedis{
 
     const TOTAL_WRITE_NUMS ='dq_write_total_nums';
