@@ -54,7 +54,6 @@ class Home extends BaseController
 				'127.0.0.1:6789',
 			);
 
-			include_once '../ThirdParty/DqLoader.php';
 			$dqClient = new DqClient();
 			$dqClient->addServer($server);
 			$topic ='order_checker'; //topic在后台注册
