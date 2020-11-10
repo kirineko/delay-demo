@@ -18,6 +18,10 @@ class Api extends BaseController
     public function cancel()
     {
         $id = $this->request->getPost('id');
+        $status = $this->redis->hget("order:{$id}:info", 'status');
+        if ($status == '已支付') {
+            return $this->respond();
+        }
         $this->redis->hset("order:{$id}:info", 'status', '已取消');
         $data = [
             'code' => 200,
